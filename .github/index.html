@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="darkmodeSwitch.css" />
+    <script src="darkmodeSwitch.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -25,6 +27,7 @@
 </head>
 
 <body>
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -42,14 +45,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="schedule.html">Schedule</a>
                 </li>
+                <li id="dark-mode-button" class="nav-item">
+                    <button class="nav-link" onclick="myFunction()">Dark Mode :D</button>
+                </li>
             </ul>
         </div>
     </nav>
-    <div name="about-me">
+    <div class="demo" name="about-me">
         <h1>Hello World!</h1>
         <br />
         <p>Welcome to CSCI 313 Assignment 2!</p>
     </div>
+
+
 </body>
 
 </html>
