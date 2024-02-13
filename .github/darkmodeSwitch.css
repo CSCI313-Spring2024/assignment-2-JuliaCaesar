@@ -11,6 +11,12 @@ body {
 }
 
 #dark-mode-button {
-  padding-left: 137ex;
+  padding-left: 1ex;
+  padding-top: 1.6ex;
+}
+
+#dm-label {
+  padding-left: 130ex;
   padding-top: 1ex;
 }
+
