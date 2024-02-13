@@ -56,7 +56,7 @@ body {
     min-width: 165px;
 }
 
-.schedule-table table tbody td.active h4 {
+.schedule-table table tbody td.active b {
     font-weight: 700;
     color: #000;
     font-size: 20px;
@@ -69,7 +69,7 @@ body {
     margin-bottom: 0;
 }
 
-.schedule-table table tbody td .hover h4 {
+.schedule-table table tbody td .hover b {
     font-weight: 700;
     font-size: 20px;
     color: #ffffff;
@@ -145,7 +145,7 @@ body {
         padding: 20px;
     }
 
-    .schedule-table table tbody td.active h4 {
+    .schedule-table table tbody td.active b {
         font-size: 18px;
     }
 
@@ -176,7 +176,7 @@ body {
         font-size: 18px;
     }
 
-    .schedule-table table tbody td.active h4 {
+    .schedule-table table tbody td.active b {
         font-size: 17px;
     }
 }
@@ -190,7 +190,7 @@ body {
         padding: 15px;
     }
 
-    .schedule-table table tbody td.active h4 {
+    .schedule-table table tbody td.active b {
         font-size: 16px;
     }
 
