@@ -53,16 +53,17 @@
 
 #about-me {
     text-align: center;
-    padding: 100px;
+    padding: 105px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     border-radius: 25px;
-    background-image: url(images/aboutmebackground.png);
+    background-image: url(images/index.png);
     color: white;
 }
 
 #hello {
     font-size: 100px;
+    background: none;
 }
 
 #welcome {
