@@ -1,0 +1,58 @@
+/* #sched {
+    padding: 30ex;
+} */
+
+#am {
+    text-align: center;
+    margin-top: -10ex;
+    font-size: 10ex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#rcorners1 {
+    text-align: center;
+    border-radius: 25px;
+    background-image: url(images/aboutmebackground.png);
+    background-size: 950px;
+    padding: 20px;  
+    padding-top: 200px;
+    width: 500px;
+    height: 100px;  
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    
+    /*line it up with image*/
+}
+
+  #space {
+    padding: 10ex;
+  }
+
+  #img {
+    background-image: url(images/colorbg.png);
+    background-size: 750px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+  }
+
+  #about-me {
+    text-align: center;
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 25px;
+    background-image: url(images/aboutmebackground.png);
+    color: white;
+  }
+
+  #hello {
+    font-size: 100px;
+  }
+
+  #welcome {
+    font-size: 50px;
+    font-weight: lighter;
+  }
