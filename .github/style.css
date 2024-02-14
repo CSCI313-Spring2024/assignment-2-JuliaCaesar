@@ -1,6 +1,13 @@
-/* #sched {
-    padding: 30ex;
-} */
+#sched {
+    background-image: url(images/aboutmebackground.png);
+    color: white;
+}
+
+#act {
+    background-image: url(images/bg.png);
+    color: white;
+    background-size: 200px;
+}
 
 #am {
     text-align: center;
