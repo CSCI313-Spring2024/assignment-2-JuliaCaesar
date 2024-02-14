@@ -1,0 +1,181 @@
+#sched {
+    background-image: url(images/aboutmebackground.png);
+    color: white;
+}
+
+#act {
+    background-image: url(images/bg.png);
+    color: white;
+    background-size: 200px;
+}
+
+#am {
+    text-align: center;
+    margin-top: -10ex;
+    font-size: 10ex;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#rcorners1 {
+    text-align: center;
+    border-radius: 25px;
+    background-image: url(images/me2.png);
+    background-size: 750px;
+    padding: 20px;
+    padding-top: 200px;
+    width: 600px;
+    height: 200px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+    /*line it up with image*/
+}
+
+#space {
+    padding: 10ex;
+}
+
+#space2 {
+    padding-left: 0ex;
+    padding-right: 20ex;
+   
+}
+
+#img {
+    background-image: url(images/colorbg.png);
+    background-size: 750px;
+    padding: 20px;
+    height: auto;
+    width: auto;
+}
+
+#about-me {
+    text-align: center;
+    padding: 105px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 25px;
+    background-image: url(images/index.png);
+    color: white;
+}
+
+#hello {
+    font-size: 100px;
+    background: none;
+}
+
+#welcome {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(images/aboutmebackground.png);
+}
+
+#font {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-image: url(images/aboutmebackground.png);
+}
+
+#font1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: forestgreen;
+    background-size: 100px;
+}
+
+#fun {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-image: url(images/sun2.png);
+    background-size: 120px;
+    /* background-color: forestgreen; */
+    border-radius: 50%;
+    padding-left: 3px;
+    padding-top: 36px;
+    height: 125px;
+    width: 120px;
+    text-align: center;
+}
+
+#font2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: medium;
+    padding-top: 5ex;
+    padding-left: 20ex;
+}
+
+#fav {
+    align-content: center;
+}
+
+#form {
+    display: inline;
+    align-content: center;
+    padding: 50px;
+    padding-left: 150px;
+}
+
+#tdspace {
+    padding-right: 10ex;
+    padding-left: 10ex;
+}
+
+#tdspace2 {
+    padding-right: 50ex;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 400px;
+    height: 230px;
+    padding: 50px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #rocket1 {
+    background-image: url(images/rocket1.png);
+    background-size: 50ex;
+  }
+
+  #rocket2 {
+    background-image: url(images/rocket2.png);
+    background-size: 60ex;
+  }
+
+  #rocket3 {
+    background-image: url(images/rocket3.png);
+    background-size: 60ex;
+  }
+
+  #circle {
+    background-image: url(images/colorbg.png);
+    border-radius: 250px;
+
+  }
+
+  #nav {
+    color: white;
+    background-image: url(images/space2.jpg);
+    background-size: 1500px;
+  }
+
+  #nav2 {
+    color: white;
+  }
