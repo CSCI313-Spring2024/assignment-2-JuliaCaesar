@@ -3,12 +3,12 @@ body{
 }
 
 #sched {
-    background-image: url(../images/aboutmebackground.png);
+    background-image: url(images/aboutmebackground.png);
     color: white;
 }
 
 #act {
-    background-image: url(../images/bg.png);
+    background-image: url(images/bg.png);
     color: white;
     background-size: 200px;
 }
@@ -24,7 +24,7 @@ body{
 #rcorners1 {
     text-align: center;
     border-radius: 25px;
-    background-image: url(../images/me2.png);
+    background-image: url(images/me2.png);
     background-size: 750px;
     padding: 20px;
     padding-top: 200px;
@@ -48,7 +48,7 @@ body{
 }
 
 #img {
-    background-image: url(../images/colorbg.png);
+    background-image: url(images/colorbg.png);
     background-size: 750px;
     padding: 20px;
     height: auto;
@@ -61,7 +61,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     border-radius: 25px;
-    background-image: url(../images/index.png);
+    background-image: url(images/index.png);
     color: white;
 }
 
@@ -78,13 +78,13 @@ body{
 h1 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(../images/aboutmebackground.png);
+    background-image: url(images/aboutmebackground.png);
 }
 
 #font {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    background-image: url(../images/aboutmebackground.png);
+    background-image: url(images/aboutmebackground.png);
 }
 
 #font1 {
@@ -97,7 +97,7 @@ h1 {
 #fun {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    background-image: url(../images/sun2.png);
+    background-image: url(images/sun2.png);
     background-size: 120px;
     /* background-color: forestgreen; */
     border-radius: 50%;
@@ -154,29 +154,29 @@ h1 {
   }
 
   #rocket1 {
-    background-image: url(../images/rocket1.png);
+    background-image: url(images/rocket1.png);
     background-size: 50ex;
   }
 
   #rocket2 {
-    background-image: url(../images/rocket2.png);
+    background-image: url(images/rocket2.png);
     background-size: 60ex;
   }
 
   #rocket3 {
-    background-image: url(../images/rocket3.png);
+    background-image: url(images/rocket3.png);
     background-size: 60ex;
   }
 
   #circle {
-    background-image: url(../images/colorbg.png);
+    background-image: url(images/colorbg.png);
     border-radius: 250px;
 
   }
 
   #nav {
     color: white;
-    background-image: url(../images/space2.jpg);
+    background-image: url(images/space2.jpg);
     background-size: 1500px;
   }
 
