@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="darkmodeSwitch.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dm-style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" href="dm-darkmodeSwitch.css" />
     <script src="darkmodeSwitch.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -27,9 +28,10 @@
     <title>CSCI 313 Assignment 2</title>
 </head>
 
-<body>
+<body style="background-color: black;"> 
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
-        <a class="navbar-brand" href="index.html" id="nav2">Home</a>
+        <a class="navbar-brand" href="dm-index.html" id="nav2">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="nav">
             <span class="navbar-toggler-icon">(current)</span>
@@ -37,63 +39,31 @@
         <div class="collapse navbar-collapse" id="navbarNav" id="nav">
             <ul class="navbar-nav" id="nav2">
                 <li class="nav-item active" id="nav2">
-                    <a class="nav-link" href="aboutme.html" id="nav2">About Me</a>
+                    <a class="nav-link" href="dm-aboutme.html" id="nav2">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="favorites.html" id="nav2">Favorites <span class="sr-only"></span></a>
+                    <a class="nav-link" href="dm-favorites.html" id="nav2">Favorites <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="schedule.html" id="nav2">Schedule</a>
+                    <a class="nav-link" href="dm-schedule.html" id="nav2">Schedule</a>
                 </li>
                 <li id="dm-label" class="nav-item" id="nav2">
-                    <p class="nav-link" id="nav2">Dark Mode :D</p>
+                    <p class="nav-link" id="nav2">Light Mode :D</p>
                 </li>
                 <li id="dark-mode-button" class="nav-item" id="nav2">
-                    <input type="checkbox" id="nav2" id="dm-button" class="nav-link" onclick="myFunction()"></input>
+                    <a href="../lightmode/index.html">
+                        <input type="button" id="dmb" id="nav2" id="dm-button" class="nav-link"></input>
+                    </a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <h1 id="font1">Some of My Favorite Things</h1>
-    <div id="fun">
-        <table >
-            <tr>
-                <td>Fun Fact:</td>
-            </tr>
-            <tr>
-                <td>Fish can cough!</td>
-            </tr>
-        </table>
+    <div class="demo" id="about-me">
+        <h1 id="hello">Hello World!</h1>
+        <br />
+        <p id="welcome">Welcome to CSCI 313 Assignment 2!</p>
     </div>
 
-    <div class="clearfix" id="font2">
-        <div class="box" id="rocket1">
-        <p>Favorite Websites</p>
-        <ul>
-            <li><a href="https://www.youtube.com">YouTube</a></li>
-            <li><a href="https://www.dndbeyond.com">Dungeons & Dragons</a></li>
-            <li><a href="https://guthib.com">GitHub</a></li>
-        </ul>
-        </div>
-        <div class="box" id="rocket2">
-        <p>Favorite Media</p>
-        <ul>
-            <li>Book: <i>Life as We Knew It</i> by Susan Beth Pfeffer</li>
-            <li>Show: <i>Good Omens</i></li>
-            <li>Movie: <i>Inception</i></li>
-        </ul>
-        </div>
-        <div class="box" id="rocket3">
-        <p>Hobbies</p>
-        <ol>
-            <li>Playing Video Games</li>
-            <li>Reading Books</li>
-            <li>Drawing</li>
-        </ol>
-        </div>
-    </div>
-    
 
 </body>
 
