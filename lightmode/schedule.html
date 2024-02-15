@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" href="darkmodeSwitch.css" />
+    <script src="darkmodeSwitch.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6SpejbU02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/globalstyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>CSCI 313 Assignment 2</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav">
+        <a class="navbar-brand" href="index.html" id="nav2">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="nav">
+            <span class="navbar-toggler-icon">(current)</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" id="nav">
+            <ul class="navbar-nav" id="nav2">
+                <li class="nav-item active" id="nav2">
+                    <a class="nav-link" href="aboutme.html" id="nav2">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="favorites.html" id="nav2">Favorites <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="schedule.html" id="nav2">Schedule</a>
+                </li>
+                <li id="dm-label" class="nav-item" id="nav2">
+                    <p class="nav-link" id="nav2">Dark Mode :D</p>
+                </li>
+                <li id="dark-mode-button" class="nav-item" id="nav2">
+                    <a href="../darkmode/dm-schedule.html">
+                        <input type="button" id="nav2" id="dm-button" class="nav-link"></input>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="sched" class="container">
+        <div class="w-95 w-md-75 w-lg-60 w-xl-55 mx-auto mb-6 text-center">
+            <div class="subtitle alt-font"><span class="text-primary"></span><span class="title"></span></div>
+            <h2 class="display-18 display-md-16 display-lg-14 mb-0">My Schedule<span class="text-primary"></span></h2>
+        </div>
+        <div class="row" id="sched">
+            <div class="col-md-12">
+                <div class="schedule-table">
+                    <table id="sched" class="table bg-white">
+                        <thead>
+                            <tr>
+                                <th>Schedule</th>
+                                <th>Sunday</th>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                                <th class="last">Saturday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="time">11 am</td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>CSCI 313</b>
+                                    <p>11 am - 11:50 am</p>
+                                </td>
+                                <td id="act" class="active">
+                                    <b>CSCI 445</b>
+                                    <p>11 am - 12:15 pm</p>
+                                </td>
+                                <td id="act" class="active">
+                                    <b>CSCI 313</b>
+                                    <p>11 am - 11:50 am</p>
+                                </td>
+                                <td id="act" class="active">
+                                    <b>CSCI 445</b>
+                                    <p>11 am - 12:15 pm</p>
+                                </td>
+                                <td id="act" class="active">
+                                    <b>CSCI 313</b>
+                                    <p>11 am - 11:50 am</p>
+                                </td>
+                                <td id="act" class="active">
+                                    <b>Dungeons & Dragons</b>
+                                    <p>11 am - 2 pm</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="day">1 pm</td>
+                                <td id="act" class="active">
+                                    <b>Capstone Team Meeting</b>
+                                    <p>1 pm - 2 pm</p>
+                                </td>
+                                <td id="act" class="active">
+                                    <b>CSCI 474</b>
+                                    <p>1pm - 1:50pm</p>
+                                </td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>CSCI 474</b>
+                                    <p>1pm - 1:50pm</p>
+                                </td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>CSCI 474</b>
+                                    <p>1pm - 1:50pm</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="day">2 pm</td>
+                                <td></td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>STAT 368</b>
+                                    <p>2 pm - 3:15 pm</p>
+                                </td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>STAT 368</b>
+                                    <p>2 pm - 3:15 pm</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="day">3:30 pm</td>
+                                <td></td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>CSCI 467</b>
+                                    <p>3:30 pm - 4:45 pm</p>
+                                </td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>CSCI 467</b>
+                                    <p>3:30 pm - 4:45 pm</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="day">4 pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>Dungeons & Dragons</b>
+                                    <p>4 pm - 8 pm</p>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="day">5 pm</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td id="act" class="active">
+                                    <b>ACM Board Meeting</b>
+                                    <p>5 pm - 6 pm</p>
+                                </td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
