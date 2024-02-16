@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 
 #sched {
     background-image: url(images/aboutmebackground.png);
@@ -31,6 +34,7 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 
+    /*line it up with image*/
 }
 
 #space {
